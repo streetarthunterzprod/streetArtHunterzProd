@@ -1,0 +1,28 @@
+@media screen and (min-width: 1440px) {
+  .WLAF_container {
+    padding: 1.5rem 0;
+    height: 36rem;
+  }
+  .works_count_WLAF {
+    font-size: 1.25rem;
+    width: 90%;
+  }
+  .WLAF_choice_line {
+    justify-content: center;
+    width: 90%;
+    margin-top: 0.5rem;
+    gap: 4rem;
+  }
+  .WLAF_choice_btn {
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  .WLAF_location_option {
+    font-size: 1.2rem;
+  }
+  .WLAF_workcard_container {
+    justify-content: space-evenly;
+    gap: 1rem 1rem;
+    padding-top: 1rem;
+  }
+}

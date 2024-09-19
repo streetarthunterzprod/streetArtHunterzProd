@@ -1,0 +1,22 @@
+.iconInfos {
+  height: 35px;
+  width: 35px;
+}
+
+@media screen and (min-width: 1440px) {
+  .iconAdd {
+    display: none;
+  }
+  .iconInfos {
+    display: none;
+  }
+  .iconWalk {
+    display: none;
+  }
+  .iconAdd {
+    display: none;
+  }
+  .iconContact {
+    display: none;
+  }
+}

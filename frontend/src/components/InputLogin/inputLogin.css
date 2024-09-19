@@ -1,0 +1,139 @@
+.login_Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20% 0;
+}
+.Login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.Title_Login {
+  font-family: var(--font-02);
+  color: var(--color-01);
+  font-size: xxx-large;
+}
+.Pseudo_Login {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--font-00);
+  font-size: medium;
+  gap: 0.5rem;
+}
+.Password_Login {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--font-00);
+  font-size: medium;
+  gap: 0.5rem;
+}
+.Input_Login {
+  width: 250px;
+  background-color: var(--color-00);
+  padding: 10px 10px;
+}
+.Button-Login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px black;
+  border-radius: 10px;
+  width: 50%;
+  padding: 10px 0;
+  font-family: var(--font-03);
+  font-size: medium;
+  background-color: var(--color-00);
+  color: var(--color-01);
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+.Button-Login:hover {
+  background-color: var(--color-01);
+  color: var(--color-00);
+}
+.Anonymous_Login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+.Anonymus_Picture_Login {
+  width: 20%;
+}
+.loginonymous {
+  display: none;
+}
+.loginonymous_left {
+  display: none;
+}
+
+@media (min-width: 1440px) {
+  .login_Container {
+    justify-content: center;
+    margin: 0;
+  }
+  .Picture_DesKtop_Login {
+    width: 28%;
+  }
+  .loginonymous {
+    display: block;
+    width: 100%;
+    transform: scaleX(-1);
+  }
+  .Block_login {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+  }
+  .Title_Login {
+    font-family: var(--font-02);
+    color: var(--color-01);
+    font-size: xxx-large;
+  }
+  .Pseudo_Login {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--font-00);
+    font-size: medium;
+  }
+  .Password_Login {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--font-00);
+    font-size: medium;
+  }
+  .Input_Login {
+    width: 400px;
+    background-color: var(--color-00);
+    padding: 10px 10px;
+  }
+  .Button-Login {
+    font-size: large;
+  }
+  .Anonymous_Login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+  }
+  .Anonymus_Picture_Login {
+    width: 20%;
+    height: 5%;
+    margin-bottom: 5%;
+  }
+  .loginonymous_left {
+    display: block;
+    width: 100%;
+  }
+}

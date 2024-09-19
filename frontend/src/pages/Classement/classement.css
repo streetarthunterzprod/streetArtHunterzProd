@@ -1,0 +1,134 @@
+.Classement_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Classement_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Classement_bloc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.Classement_Title {
+  font-family: var(--font-05);
+  font-size: 28px;
+}
+.Most_Wanted {
+  width: 70%;
+}
+.searchBar_Classement_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin-bottom: 1rem;
+}
+.searchBar_Classement {
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: 60px;
+}
+.Smiley_Search_Classement {
+  display: none;
+}
+
+.Classement_content {
+  width: 95%;
+}
+.Users_List_Classement {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 1rem;
+  border: solid 1px black;
+  width: 95%;
+  height: 380px;
+  margin-bottom: 1rem;
+}
+.UsersList_Table_Classement {
+  width: 95%;
+  border: solid 1px black;
+}
+.UsersList_Td_Classement {
+  border: solid 1px black;
+  padding: 7px 0;
+  text-align: center;
+  font-family: var(--font-00);
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+.UsersList_Tr_Classement:nth-child(even) {
+  background-color: var(--color-02);
+}
+
+.UsersList_Tr_Classement:nth-child(odd) {
+  background-color: var(--color-00);
+}
+.AnonymousKing_Classement {
+  display: none;
+}
+.Crown {
+  width: 20%;
+  margin-bottom: -21px;
+}
+@media (min-width: 1440px) {
+  .Classement_section {
+    flex-direction: row;
+  }
+  .Classement_content {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+  }
+  .AnonymousKing_Classement {
+    display: initial;
+    width: 30%;
+  }
+  .AnonymousKing {
+    width: 100%;
+  }
+  .AnonymousKing_right {
+    transform: scaleX(-1);
+  }
+  .Classement_bloc {
+    width: 35%;
+    margin: 0;
+  }
+  .Crown {
+    display: initial;
+    width: 15%;
+    margin-bottom: -29px;
+    transform: scaleX(-1);
+  }
+  .Classement_Title {
+    font-family: var(--font-05);
+    font-size: 40px;
+  }
+  .Smiley_Search_Classement {
+    display: initial;
+    width: 40px;
+  }
+  .Users_List_Classement {
+    height: 385px;
+    margin-bottom: 0;
+  }
+  .UsersList_Td_Classement {
+    padding: 5px 0;
+    font-size: 1rem;
+  }
+  .OtherUserModal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

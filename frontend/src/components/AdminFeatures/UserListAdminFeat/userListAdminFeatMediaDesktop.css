@@ -1,0 +1,29 @@
+@media screen and (min-width: 1440px) {
+  .ULAF_container {
+    justify-content: flex-start;
+    gap: 1.5rem;
+    padding: 1.5rem 0;
+    height: 36rem;
+  }
+  .searchBar_ULAF_container {
+    width: 80%;
+  }
+  .hunters_count_ULAF {
+    width: 80%;
+    padding: 0.5rem 0;
+    font-size: 1.25rem;
+  }
+  .ULAF_content {
+    width: 80%;
+  }
+  .searchBar_ULAF {
+    font-size: 1rem;
+  }
+  .ULAF_toogle {
+    font-size: 1.25rem;
+  }
+  .UsersList_Td_ULAF {
+    padding: 8px;
+    font-size: 1rem;
+  }
+}

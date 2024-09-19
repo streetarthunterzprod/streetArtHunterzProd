@@ -1,0 +1,14 @@
+.workCardSpotZone_container {
+  width: 35%;
+}
+.workCardSpotZone_content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.Work_image_spot {
+  width: 100%;
+  border: solid 1px black;
+}

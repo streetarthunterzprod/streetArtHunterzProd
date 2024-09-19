@@ -1,0 +1,110 @@
+.Register {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  margin-top: 2rem;
+  gap: 2rem;
+}
+.Title_Register {
+  font-family: var(--font-02);
+  color: var(--color-01);
+  font-size: xxx-large;
+}
+.Pseudo_Register {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--font-00);
+  font-size: medium;
+  gap: 0.5rem;
+}
+.Password_Register {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--font-00);
+  font-size: medium;
+  gap: 0.5rem;
+}
+.Input_Register {
+  width: 250px;
+  background-color: var(--color-00);
+  padding: 10px 10px;
+}
+.Button-Register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px black;
+  border-radius: 10px;
+  width: 50%;
+  padding: 10px 0;
+  font-family: var(--font-03);
+  font-size: medium;
+  background: var(--color-00);
+  color: var(--color-01);
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+.Button-Register:hover {
+  background: var(--color-01);
+  color: var(--color-00);
+}
+.Anonymous_Register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+.Anonymus_Picture_Register {
+  width: 20%;
+  margin-bottom: 5%;
+}
+.AnonymousReg {
+  display: none;
+}
+.AnonymousReg_right {
+  display: none;
+}
+
+@media (min-width: 1440px) {
+  .Anonymous_Register {
+    display: none;
+  }
+  .Display_Desktop_Register {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .Picture_DesKtop_Register {
+    width: 35%;
+  }
+  .AnonymousReg {
+    display: initial;
+    width: 100%;
+  }
+  .Block_Register {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+  }
+  .Register {
+    width: 33%;
+  }
+  .Input_Register {
+    width: 400px;
+  }
+  .Button-Register {
+    width: 100%;
+    font-size: large;
+  }
+  .AnonymousReg_right {
+    display: initial;
+    transform: scaleX(-1);
+  }
+}

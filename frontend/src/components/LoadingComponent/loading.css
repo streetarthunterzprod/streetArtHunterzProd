@@ -1,0 +1,45 @@
+#ying-yang {
+  animation: spin 2s infinite linear;
+  width: 96px;
+  height: 48px;
+  background: #eee;
+  border-color: #000;
+  border-style: solid;
+  border-width: 2px 2px 50px 2px;
+  border-radius: 100%;
+  position: relative;
+  margin: 50px auto;
+}
+
+#ying-yang:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background: #eee;
+  border: 18px solid #000;
+  border-radius: 100%;
+  width: 12px;
+  height: 12px;
+}
+
+#ying-yang:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: #000;
+  border: 18px solid #eee;
+  border-radius: 100%;
+  width: 12px;
+  height: 12px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

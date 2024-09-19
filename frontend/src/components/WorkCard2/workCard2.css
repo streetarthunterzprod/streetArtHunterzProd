@@ -1,0 +1,38 @@
+.workCard2_container {
+}
+.workCard2_content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  cursor: pointer;
+}
+.Work2_image {
+  width: 100%;
+  border: solid 1px black;
+}
+.work2_infos_container {
+  border: solid 1px black;
+  background-color: var(--color-00);
+  width: 100%;
+  padding: 10px 0;
+}
+.work2_info {
+  font-family: var(--font-00);
+  text-align: center;
+  font-size: small;
+  padding: 0 10px;
+}
+
+@media (min-width: 1440px) {
+  .workCard2_container {
+    width: 25%;
+  }
+  .work2_info {
+    font-size: small;
+  }
+  .workCard2_content {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}

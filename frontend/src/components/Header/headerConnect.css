@@ -1,0 +1,32 @@
+.Navbar {
+  display: flex;
+  background-color: var(--color-02);
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 55px;
+}
+.Title-Header {
+  font-family: var(--font-02);
+  font-size: 23px;
+  color: var(--color-01);
+  margin-left: 10%;
+  cursor: pointer;
+}
+.LogOut-img {
+  margin-right: 5%;
+}
+.Burger-Header {
+  display: none;
+}
+@media (min-width: 1440px) {
+  .Title-Header {
+    font-size: 35px;
+  }
+  .LogOut-img {
+    display: none;
+  }
+  .Burger-Header {
+    display: block;
+  }
+}

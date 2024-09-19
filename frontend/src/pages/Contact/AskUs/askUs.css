@@ -1,0 +1,16 @@
+.anonymousQuestion_container {
+  display: none;
+}
+
+@media screen and (min-width: 1439px) {
+  .anonymousQuestion_container {
+    display: initial;
+    width: 28%;
+  }
+  .anonymousquestion {
+    width: 100%;
+  }
+  .anonymousquestion_left {
+    transform: scaleX(-1);
+  }
+}

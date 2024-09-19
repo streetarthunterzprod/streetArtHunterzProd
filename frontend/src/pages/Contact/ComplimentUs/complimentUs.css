@@ -1,0 +1,23 @@
+.anonymousFlower_container {
+  display: none;
+}
+/* .Validate_compliment {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+} */
+
+@media screen and (min-width: 1439px) {
+  .anonymousFlower_container {
+    display: initial;
+    width: 28%;
+  }
+  .anonymousFlower_right {
+    transform: scaleX(-1);
+  }
+
+  .anonymousFlower {
+    width: 100%;
+  }
+}

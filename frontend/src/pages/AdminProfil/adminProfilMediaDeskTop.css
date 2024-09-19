@@ -1,0 +1,91 @@
+@media screen and (min-width: 1440px) {
+  .AdminProfilContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .AdminProfil_content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 0;
+    width: 100%;
+    margin: 0;
+  }
+  .admin_infos_bloc {
+    width: 40%;
+  }
+  .admin_features {
+    width: 35%;
+  }
+  .Pseudo_admin {
+    font-size: 5.625rem;
+  }
+  .Seniority_admin {
+    font-size: 1.313rem;
+    padding: 0.4rem 0;
+  }
+  .Profil_infos_content_admin {
+    flex-direction: row;
+    padding: 1rem 0;
+    justify-content: space-between;
+  }
+  .admin_infos_container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .admin_infos {
+    font-size: 1.25rem;
+  }
+  .admin_infos_btn {
+    width: 30%;
+  }
+  .admin_infos_desk_font {
+    font-size: 1.1rem;
+  }
+  .text_admin_infos_btn {
+    font-size: 1rem;
+  }
+  .history_container_admin {
+    padding-bottom: 1rem;
+    border-radius: 15px 15px 0 0;
+  }
+  .admin_history_title_box {
+    border-radius: 15px 15px 0 0;
+  }
+  .history_admin_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem 0;
+    gap: 1rem;
+  }
+  .admin_workcard_container {
+    flex-direction: row;
+    align-items: center;
+  }
+  .empty_history_admin_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .historyWorkSubmit_admin_EMPTY {
+    font-family: var(--font-06);
+    color: var(--color-03);
+    font-size: 4em;
+  }
+  .MonkeyEmpy {
+    width: 27%;
+  }
+  .admin_workcard_container {
+    margin-bottom: 1rem;
+    gap: 3rem;
+  }
+  .BtnToggle_adminFeat {
+    font-size: 1.563rem;
+  }
+}

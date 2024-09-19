@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "location": "Paris19",
+    "image": "/src/assets/images/works_sample/20231210_143137.jpg",
+    "presentation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget efficitur enim. Phasellus sodales pretium orci at finibus. Fusce tempor, ex vitae tristique sagittis, tortor ex scelerisque lectus, eu maximus ante turpis quis tortor."
+  },
+
+  {
+    "id": 2,
+    "location": "Paris20",
+    "image": "/src/assets/images/works_sample/20231203_143211.jpg",
+    "presentation": "Nunc mollis ultrices tristique. Proin vitae elit nec risus faucibus mattis. Sed sem lorem, volutpat non congue at, dapibus nec dui. Fusce a cursus augue. Nam commodo dolor eget risus posuere, ut efficitur leo facilisis. Integer et sapien non tellus consectetur lobortis."
+  },
+
+  {
+    "id": 3,
+    "location": "Aubervilliers93",
+    "image": "/src/assets/images/works_sample/20231209_124929.jpg",
+    "presentation": "Quisque dolor dui, condimentum sed porta in, ornare id ipsum. Praesent gravida congue vulputate. Suspendisse eget nibh vitae ante ultricies aliquet nec ut odio. Donec tincidunt nec lectus at."
+  },
+
+  {
+    "id": 4,
+    "location": "Paris13",
+    "image": "/src/assets/images/works_sample/20231203_141600.jpg",
+    "presentation": "Nam commodo dolor eget risus posuere, ut efficitur leo facilisis. Integer et sapien non tellus consectetur lobortis."
+  }
+]

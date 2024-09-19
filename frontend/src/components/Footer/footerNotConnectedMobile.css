@@ -1,0 +1,19 @@
+.footer_city_xs {
+  width: 100vw;
+}
+
+.footer_city {
+  display: none;
+}
+.footer_link {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #eae9e9;
+  width: 100%;
+  padding: 0.24rem 0;
+  align-items: center;
+}
+.iconInfos {
+  height: 35px;
+  width: 35px;
+}

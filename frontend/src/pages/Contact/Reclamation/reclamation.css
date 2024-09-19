@@ -1,0 +1,17 @@
+.anonymousMegaphone_container {
+  display: none;
+}
+
+@media screen and (min-width: 1439px) {
+  .anonymousMegaphone_container {
+    display: initial;
+    width: 25%;
+  }
+  .anonymousMegaphone_right {
+    transform: scaleX(-1);
+  }
+
+  .anonymousMegaphone {
+    width: 100%;
+  }
+}

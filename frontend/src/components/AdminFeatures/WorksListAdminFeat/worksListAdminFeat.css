@@ -1,0 +1,73 @@
+.WLAF_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  border: solid 1px black;
+  border-top: 0;
+  padding: 1rem 0;
+}
+.works_count_WLAF {
+  font-family: var(--font-07);
+  font-size: 1rem;
+  text-align: center;
+  border: solid 1px black;
+  width: 95%;
+  padding: 5px 0;
+  background-color: var(--color-00);
+}
+.WLAF_choice_line {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+}
+.WLAF_choice_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-07);
+  font-size: 1rem;
+  text-align: center;
+  border: solid 1px black;
+  padding: 5px;
+  width: 25%;
+  cursor: pointer;
+  background-color: var(--color-00);
+}
+.WLAF_choice_btn:hover {
+  color: var(--color-00);
+  background-color: var(--color-01);
+}
+.WLAF_location_option {
+  font-family: var(--font-07);
+  font-size: 1rem;
+  text-align: center;
+  padding: 5px;
+  cursor: pointer;
+  background-color: var(--color-00);
+}
+.WLAF_workcard_container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 95%;
+  cursor: pointer;
+}
+.WLAF_dashed_line {
+  border: none;
+  border-top: 2px dotted black;
+  height: 2px;
+  width: 95%;
+}
+.WLAF_trash_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px black;
+  border-radius: 5px;
+  width: 70px;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  background-color: var(--color-00);
+}

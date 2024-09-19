@@ -1,0 +1,148 @@
+.Main_MailUs {
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.MailUs_Form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 1rem;
+  font-family: var(--font-03);
+  font-size: 1.8em;
+}
+
+.MailUs_Form > h2 {
+  font-family: var(--font-03);
+  font-size: 2rem;
+}
+
+.MailUs_Form > h3 {
+  font: normal 1.5rem var(--font-00);
+}
+
+.MailUs_Form > input,
+.MailUs_Form > textarea {
+  border: 2px solid black;
+  border-radius: 10px;
+  background: var(--color-02);
+  opacity: 75%;
+}
+
+.MailUs_Form > input,
+.MailUs_Form > textarea {
+  width: 80%;
+  padding: 0.7em 1.2em;
+}
+.MailUs_Form > textarea {
+  height: 10rem;
+}
+
+.MailUs_Form > input[type="submit"] {
+  border: solid 1px black;
+  color: var(--color-01);
+  background-color: var(--color-00);
+  width: 8em;
+  font-family: var(--font-03);
+  font-size: 1rem;
+  padding: 0.2em;
+  margin-top: 1rem;
+}
+.MailUs_Form > input[type="submit"]:hover {
+  color: var(--color-00);
+  background-color: var(--color-01);
+}
+
+.MailUs_Form > textarea {
+  flex-grow: 1;
+}
+
+.MailUs_Form > h2 {
+  cursor: pointer;
+}
+
+.MailUs_Form > h2,
+.MailUs_Form > input {
+  margin: 0.4rem 0em 1.3rem;
+}
+
+.MailUs_Form > textarea {
+  margin: 0.4rem 0em 0.6rem;
+}
+
+.contact_send_btn {
+  width: 25% !important;
+  font-family: var(--font-03);
+  font-size: medium;
+  cursor: pointer;
+}
+.contact_send_btn:hover {
+  background-color: var(--color-01) !important;
+  color: var(--color-00) !important;
+}
+
+.SendEmailConfirmation {
+  color: green;
+  text-align: center;
+}
+
+.contact_back_btn {
+  width: 25% !important;
+  background-color: var(--color-00) !important;
+  font-family: var(--font-03);
+  font-size: medium;
+  cursor: pointer;
+  text-align: center;
+  border: solid 1px black;
+  border-radius: 10px;
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+.contact_back_btn:hover {
+  background-color: var(--color-01) !important;
+  color: var(--color-00) !important;
+}
+@media (min-width: 1440px) {
+  .Main_MailUs {
+    min-height: calc(100vh - 165px);
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+  }
+  .Background_Contact_Wall {
+    display: none;
+  }
+  .MailUs_Form > h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+  }
+  .MailUs_Form {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .MailUs_Form > input,
+  .MailUs_Form > textarea {
+    width: 100%;
+  }
+  .MailUs_Form > h3 {
+    font: normal 1.5rem var(--font-00);
+  }
+  .Background_Ask {
+    background-size: 100vw 83vh;
+    background-repeat: unset;
+    background-position-x: unset;
+  }
+  .MailUs_Form > h2,
+  .MailUs_Form > input {
+    margin: 0.4rem 0em 0.9rem;
+  }
+
+  .MailUs_Form > textarea {
+    margin: 0.4rem 0em 0.6rem;
+  }
+}

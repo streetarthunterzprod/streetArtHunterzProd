@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "Bombing";
+  src:
+    url("../fonts/bombing-webfont.woff2") format("woff2"),
+    url("../fonts/bombing-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --font-00: "Courier Prime", monospace;
+  --font-01: "Cherry Swash", serif;
+  --font-02: "Gochi Hand", cursive;
+  --font-03: "Black Ops One";
+  --font-04: "Lacquer";
+  --font-05: "Permanent Marker";
+  --font-06: "Bombing", "Rock Salt", cursive;
+  --font-07: "Goldman", sans-serif;
+
+  --color-00: #ffffff;
+  --color-01: #141414;
+  --color-02: #eae9e9;
+  --color-03: #f30000;
+  --color-04: #820675;
+  --color-05: #747474;
+
+  --toastify-font-family: var(--font-03) !important;
+  --toastify-text-color-light: var(--color-01) !important;
+  --toastify-text-color-dark: var(--color-00) !important;
+}
+
+body {
+  background-image: url(../images/img/background01d.png);
+  background-size: 100vh;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.Global_height_smartPh {
+  min-height: calc(100vh - 92px);
+}
+.font_info_color {
+  color: var(--color-05);
+}
+/* Modal */
+
+.modal_closed_btn_container {
+  display: flex;
+  justify-content: flex-end;
+}
+.modal_closed_btn {
+  cursor: pointer;
+  font-family: var(--font-05);
+  color: var(--color-00);
+  font-size: medium;
+  padding: 10px;
+  background-color: var(--color-01);
+  border-radius: 10px 10px 0 0;
+}
+@media (max-height: 867px) and (min-width: 1440px) {
+  .Global_height {
+    min-height: calc(100vh - 165px);
+    padding: 3rem 0;
+  }
+}
+@media (min-width: 1440px) {
+  body {
+    background-image: url(../images/img/background01c.png);
+    background-size: cover;
+  }
+  .Global_height {
+    min-height: calc(100vh - 159px);
+  }
+  /* Modal */
+  .modal_closed_btn {
+    font-size: x-large;
+  }
+  /* .css-0 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } */
+  .css-79ws1d-MuiModal-root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-height: 867px) and (min-width: 1440px) {
+  .Global_height {
+    min-height: calc(100vh - 165px);
+    padding: 3rem 0;
+  }
+}

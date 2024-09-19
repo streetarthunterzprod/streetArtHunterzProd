@@ -1,0 +1,133 @@
+[
+  {
+    "id": 1,
+    "pseudo": "Chaton_Brutal",
+    "email": "chaton@glouglou.fr",
+    "password": "12345azerty",
+    "city": "Paris",
+    "registration": "2022-12-22",
+    "score": 752,
+    "admin": "false"
+  },
+
+  {
+    "id": 2,
+    "pseudo": "Soleil_Levant",
+    "email": "Soleil@glouglou.fr",
+    "password": "12345azerty",
+    "city": "Marne La vallée",
+    "registration": "2023-01-01",
+    "score": 523,
+    "admin": "false"
+  },
+
+  {
+    "id": 3,
+    "pseudo": "Ulysse_31",
+    "email": "Ulysse@glouglou.fr",
+    "password": "12345azerty",
+    "city": "Chartres",
+    "registration": "2023-02-02",
+    "score": 180,
+    "admin": "true"
+  },
+
+  {
+    "id": 4,
+    "pseudo": "Big_Julius",
+    "email": "julius@glouglou.fr",
+    "password": "12345azerty",
+    "city": "Paris",
+    "registration": "2023-03-03",
+    "score": 456,
+    "admin": "true"
+  },
+
+  {
+    "id": 5,
+    "pseudo": "RuBeat",
+    "email": "rubeat@glouglou.fr",
+    "password": "12345azerty",
+    "city": "Paris",
+    "registration": "2023-04-04",
+    "score": 144,
+    "admin": "false"
+  },
+
+  {
+    "id": 6,
+    "pseudo": "El_Poutros",
+    "email": "LaPoutre@glouglou.fr",
+    "password": "12345azerty",
+    "city": "Paris",
+    "registration": "2023-05-05",
+    "score": 250,
+    "admin": "false"
+  },
+
+  {
+    "id": 7,
+    "pseudo": "KoffeeMan",
+    "email": "kofee@glouglou.fr",
+    "password": "12345azerty",
+    "city": "Paris",
+    "registration": "2023-06-06",
+    "score": 400,
+    "admin": "false"
+  },
+
+  {
+    "id": 8,
+    "pseudo": "Yax2_94",
+    "email": "yaya@glouglou.fr",
+    "password": "12345azerty",
+    "city": "Fresne",
+    "registration": "2023-06-06",
+    "score": 700,
+    "admin": "false"
+  },
+
+  {
+    "id": 9,
+    "pseudo": "Tristan",
+    "email": "tristan@glouglou.fr",
+    "password": "12345azerty",
+    "city": "Paris",
+    "registration": "2023-07-07",
+    "score": 100,
+    "admin": "false"
+  },
+
+  {
+    "id": 10,
+    "pseudo": "Yseult",
+    "email": "Yseult@glouglou.fr",
+    "password": "12345azerty",
+    "city": "Paris",
+    "registration": "2022-08-08",
+    "score": 800,
+    "admin": "false"
+  },
+
+  {
+    "id": 11,
+    "pseudo": "Drifer",
+    "email": "Drifer@glouglou.fr",
+    "password": "12345azerty",
+    "city": "Paris",
+    "registration": "2023-09-09",
+    "score": 1000,
+    "admin": "false"
+  },
+
+  {
+    "id": 12,
+    "pseudo": "LeoMiaou",
+    "email": "LeoMiaou@glouglou.fr",
+    "password": "12345azerty",
+    "city": "Paris",
+    "registration": "2023-10-10",
+    "score": 358,
+    "admin": "false"
+  }
+]

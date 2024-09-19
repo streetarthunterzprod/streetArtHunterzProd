@@ -1,0 +1,124 @@
+.Intro_Page_container {
+  height: 100vh;
+}
+.wall_backgroung_intro {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  opacity: 80%;
+}
+.MainTile_container_intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10%;
+}
+.mainTitle_intro {
+  font-family: var(--font-02);
+  color: var(--color-03);
+  font-size: 50px;
+  text-align: center;
+  margin-top: 2rem;
+}
+.crocodile {
+  width: 50%;
+}
+.Intro_Page_btn_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.intro_btn_smartphone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  width: 200px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: solid 1px black;
+  border-radius: 25px;
+  font-family: var(--font-04);
+  font-size: xx-large;
+}
+.Intro_Page_btn_deskt {
+  display: none;
+}
+.intro_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  width: 200px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: solid 1px black;
+  border-radius: 25px;
+  font-family: var(--font-04);
+  font-size: xx-large;
+}
+.intro_btn:hover {
+  background-color: var(--color-01);
+  color: var(--color-00);
+}
+.girl_Ballon {
+  display: none;
+}
+@media (min-width: 1440px) {
+  .intro_page_content {
+    position: relative;
+  }
+  .MainTile_container_intro {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-bottom: 2rem;
+    z-index: 0;
+  }
+  .mainTitle_intro {
+    grid-area: 1 / 1 / 2 / 6;
+    font-family: var(--font-02);
+    color: var(--color-03);
+    font-size: 111px;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .crocodile {
+    grid-area: 2 / 4 / 6 / 6;
+    width: 90%;
+  }
+  .Intro_Page_btn_content {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    z-index: 1;
+    gap: 3rem;
+  }
+  .intro_btn_smartphone {
+    display: none;
+  }
+  .Intro_Page_btn_deskt {
+    display: flex;
+    gap: 3rem;
+  }
+  .intro_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: solid 1px black;
+    border-radius: 25px;
+    font-family: var(--font-04);
+    font-size: xxx-large;
+    cursor: pointer;
+  }
+  .girl_Ballon {
+    display: initial;
+    width: 50%;
+    padding-right: 25%;
+  }
+}

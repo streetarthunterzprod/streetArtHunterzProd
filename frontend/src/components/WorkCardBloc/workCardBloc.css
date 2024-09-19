@@ -1,0 +1,118 @@
+.workCardBloc_content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.workCardBloc__modif_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px black;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  font-family: var(--font-03);
+  font-size: 1.5em;
+  color: var(--color-01);
+  background-color: var(--color-00);
+}
+.workCardBloc__modif_btn:hover {
+  color: var(--color-00);
+  background-color: var(--color-01);
+}
+.setting_btns_WCB {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 2rem;
+}
+.valid_btn_WCB {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px black;
+  border-radius: 5px;
+  width: 70px;
+  cursor: pointer;
+  background-color: var(--color-00);
+}
+.valid_btn_WCB:hover {
+  fill: green;
+  background: var(--color-02);
+}
+.abort_btn_WCB {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px black;
+  border-radius: 5px;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  font-family: var(--font-03);
+  font-size: 1.5em;
+  color: var(--color-01);
+  background-color: var(--color-00);
+}
+.abort_btn_WCB:hover {
+  background-color: var(--color-02);
+}
+.trash_btn_WCB {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px black;
+  border-radius: 5px;
+  width: 70px;
+  cursor: pointer;
+  background-color: var(--color-00);
+}
+.trash_btn_WCB:hover {
+  fill: red;
+  background: var(--color-02);
+}
+
+@media (min-width: 1440px) {
+  .WorkBlockModal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .workCardBloc_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 75vh;
+    background-image: url("../../assets/images/img/wall11B.jpg");
+  }
+  .workCardBloc_content {
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+  }
+}
+@media (max-height: 867px) and (min-width: 1440px) {
+  .workCardBloc_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 85vh;
+    background-image: url("../../assets/images/img/wall11B.jpg");
+  }
+  .map_WCB_container {
+    border: solid 1px black;
+    border-radius: 10px;
+  }
+  .map_WCB {
+    border-radius: 10px;
+  }
+
+  /* #workCard_container_WCB {
+    width: 39%;
+    height: 90%;
+    border: solid 1px black;
+    border-radius: 10px;
+  } */
+}

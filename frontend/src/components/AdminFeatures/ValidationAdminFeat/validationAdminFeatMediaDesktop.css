@@ -1,0 +1,60 @@
+@media screen and (min-width: 1440px) {
+  .VLAF_workcards_Desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .VLAF_workcards_container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+  }
+  .VLAF_container {
+    padding: 1.5rem 0;
+    height: 36rem;
+  }
+  .VLAF_workcard_container {
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .works_count_VLAF {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  .VLAF_WC_DeskT_01 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+  }
+  .VLAF_WC_DeskT_02 {
+    display: flex;
+    border: 2px dotted black;
+    border-radius: 10px;
+    height: 50%;
+    padding: 1rem;
+  }
+  .VLAF_btn_container {
+    flex-direction: column;
+  }
+  .VLAF_solid_line {
+    border: none;
+    border-top: solid 1px black;
+    height: 2px;
+    width: 95%;
+  }
+  .VLAF_valid_btn {
+    margin-bottom: 0;
+  }
+  .VLAF_trash_btn {
+    margin-bottom: 0;
+  }
+  .VLAF_modif_btn {
+    margin-bottom: 0;
+  }
+}

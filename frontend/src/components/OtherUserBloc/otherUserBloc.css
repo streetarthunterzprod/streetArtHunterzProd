@@ -1,0 +1,211 @@
+.otherUserBloc_container {
+  display: flex;
+  gap: 2rem;
+  background-color: var(--color-00);
+  background-image: url(../../assets/images/img/background01d.png);
+  background-size: 100vh;
+}
+.infos_OUB {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.pseudo_OUB {
+  font-family: var(--font-04);
+  color: var(--color-04);
+  font-size: xx-large;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.Seniority_OUB {
+  font-family: var(--font-07);
+  font-size: 1rem;
+  border: solid 1px black;
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  margin: 10px 0;
+  padding: 5px 0;
+  background-color: var(--color-00);
+}
+.user_info_OUB_content {
+  display: flex;
+  width: 95%;
+  margin-bottom: 1rem;
+  flex-direction: column;
+  gap: 10px;
+}
+.user_info_OUB {
+  font-family: var(--font-07);
+  font-size: 1rem;
+}
+
+.history_OUB {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.historyWorkSubmit_OUB {
+  font-family: var(--font-07);
+  font-size: 1rem;
+  border: solid 1px black;
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  margin: 10px 0;
+  padding: 5px 0;
+  background-color: var(--color-00);
+}
+.workCard_area_OUB {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 95%;
+}
+.NoWork_visual_OUB {
+  width: 50%;
+}
+.OUB_dashed_line {
+  border: none;
+  border-top: 2px dotted black;
+  height: 2px;
+  width: 95%;
+  margin-top: 1.5rem;
+}
+.OUB_trash_btn_container {
+  display: flex;
+  justify-content: center;
+}
+.OUB_trash_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px black;
+  border-radius: 5px;
+  width: 50%;
+  margin-bottom: 1.5rem;
+  padding: 10px;
+  cursor: pointer;
+  font-family: var(--font-07);
+  background-color: var(--color-00);
+}
+.OUB_trash_btn:hover {
+  color: var(--color-00);
+  background-color: var(--color-01);
+}
+
+@media (min-width: 1440px) {
+  .otherUserBloc_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 75vh;
+    background-image: url("../../assets/images/img/wall11B.jpg");
+  }
+
+  .otherUserBloc_content {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .infos_OUB {
+    width: 40%;
+    background-color: var(--color-00);
+    border: solid 1px black;
+    background-image: url(../../assets/images/img/background01d.png);
+    background-size: 100vh;
+  }
+  .pseudo_OUB {
+    color: var(--color-03);
+    font-size: 3rem;
+    margin: 2rem 0;
+  }
+  .user_info_OUB_content {
+    width: 90%;
+    border: solid 1px black;
+    padding: 10px;
+    background-color: var(--color-00);
+  }
+  .Seniority_OUB {
+    width: 90%;
+    margin: 0;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+  }
+  .infos_bottom_OUB {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .WarIsMeanContainer {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+  }
+  .WarIsMean {
+    width: 100%;
+  }
+  .admin_Smiley_Delete {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .SmileyDeath {
+    width: 25%;
+    transform: scaleX(-1);
+  }
+  .OUB_trash_btn {
+    width: 100%;
+  }
+  .history_OUB {
+    width: 40%;
+    border: solid 1px black;
+    border-radius: 25px 25px 0 0;
+    background-color: var(--color-00);
+    padding-bottom: 1rem;
+    background-image: url(../../assets/images/img/background01d.png);
+    background-size: 100vh;
+  }
+  .history_title_OUB-Desk {
+    font-family: var(--font-07);
+    font-size: 2rem;
+    padding: 1rem 0;
+    border-bottom: solid 1px black;
+    width: 100%;
+    text-align: center;
+    border-radius: 25px 25px 0 0;
+    background-color: var(--color-00);
+  }
+  .workCard_area_OUB {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+    height: 310px;
+  }
+
+  .NoWork_visual_OUB {
+    width: 70%;
+    margin-top: 1rem;
+  }
+}
+@media (max-height: 867px) and (min-width: 1440px) {
+  .otherUserBloc_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 85vh;
+    background-image: url("../../assets/images/img/wall11B.jpg");
+  }
+}

@@ -1,0 +1,34 @@
+.iconGraffiti {
+  height: 30px;
+  width: 29.855px;
+}
+
+.iconClassement {
+  height: 30px;
+  width: 29.855px;
+}
+
+.iconInfos {
+  height: 35px;
+  width: 35px;
+}
+
+@media screen and (min-width: 1440px) {
+  .iconGraffiti {
+    display: none;
+  }
+
+  .iconClassement {
+    display: none;
+  }
+
+  .iconInfos {
+    display: none;
+  }
+  .iconWalk {
+    display: none;
+  }
+  .iconAdd {
+    display: none;
+  }
+}

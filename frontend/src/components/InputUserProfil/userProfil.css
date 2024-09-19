@@ -1,0 +1,546 @@
+.UP_Container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.UP_Content {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+}
+
+.UP_Part1_Flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+
+.UP_Title_PseudoName {
+  color: var(--color-03);
+  text-align: center;
+  font-family: var(--font-06);
+  font-size: 4rem;
+}
+
+.UP_Level_Score {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+
+.UP_Title_Level {
+  border: 1px solid #000;
+  background: #fff;
+  color: var(--color-01);
+  font-family: var(--font-07);
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0.5rem;
+}
+
+.UP_Title_Score {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border: 1px solid #000;
+  background: #fff;
+  color: var(--color-01);
+  font-family: var(--font-07);
+  font-size: 26px;
+  padding: 0.5rem;
+}
+
+.UP_Email_Password {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #000;
+  background: #fff;
+  color: var(--color-01);
+  font-family: var(--font-07);
+  font-size: 20px;
+  width: 100%;
+}
+
+.Block_Email_Password {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0.5rem;
+}
+
+.UP_Change_Password {
+  display: flex;
+  padding: 0.5rem;
+  justify-content: center;
+}
+
+.UP_Change_Password_Inside {
+  color: var(--color-01);
+  font-family: var(--font-07);
+  text-align: center;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  border: 1px solid #000;
+  padding: 0.5rem;
+}
+
+.UP_Change_Password_Inside:hover {
+  color: var(--color-00);
+  background-color: var(--color-01);
+}
+
+.UP_Register_Since {
+  border: 1px solid #000;
+  background: #fff;
+  width: 100%;
+  color: var(--color-01);
+  text-align: center;
+  font-family: var(--font-07);
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  padding: 0.25rem 0 0.25rem 0;
+}
+
+.UP_Image_Monkey {
+  display: none;
+}
+
+.UP_Part2_Flex {
+  width: 100%;
+}
+
+.UP_Historical_Classement_Flex {
+  width: 100%;
+}
+
+.UP_Historical_Classement {
+  display: flex;
+  width: 100%;
+  background-color: var(--color-00);
+}
+
+.UP_Title_Historical {
+  border-radius: 16px 0 0;
+  border-right: 1px solid #141414;
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+  background: #fff;
+  width: 100%;
+  text-align: center;
+  font-family: var(--font-07);
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+.UP_Title_Historical.active {
+  color: var(--color-04);
+}
+
+.UP_Title_Classement {
+  border-radius: 0 10px 0 0;
+  border-top: 1px solid #000;
+  border-right: 1px solid #000;
+  background: #fff;
+  width: 100%;
+  text-align: center;
+  font-family: var(--font-07);
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+.UP_Title_Classement.active {
+  color: var(--color-04);
+}
+
+.UPH_Work_Submited {
+  border-radius: 0px 0px 10px 10px;
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.UPH_Works_Count {
+  font-family: var(--font-07);
+  font-size: 1rem;
+  text-align: center;
+  border: solid 1px black;
+  width: 90%;
+  padding: 0.25rem;
+}
+
+.UPC_Work_Submited_Classement {
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.searchBar_UPC_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  gap: 1rem;
+  padding: 0 0 1rem 0;
+}
+
+.searchBar_UPC {
+  width: 100%;
+  border-radius: 60px;
+  padding: 0.5rem;
+}
+
+.Smiley_Search_UPC {
+  width: 10%;
+}
+
+.Users_List_UPC {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px black;
+}
+
+.UPC_Users_List_Td {
+  border: solid 1px black;
+  text-align: center;
+  font-family: var(--font-00);
+  font-size: 0.75rem;
+  padding: 4px;
+}
+
+.UPC_Users_List_Td_container {
+  border: solid 1px black;
+  width: 87%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.UPC_UsersList_Tr:nth-child(even) {
+  background-color: var(--color-02);
+}
+
+.UPC_UsersList_Tr:nth-child(odd) {
+  background-color: var(--color-00);
+}
+
+.UPH_Workcard_Container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+}
+
+.password_change_container_UP {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.password_change_title_UP {
+  font-family: var(--font-05);
+  font-size: 1.5em;
+}
+
+.password_change_placeholder_UP {
+  font-family: var(--font-01);
+  text-align: center;
+  font-size: medium;
+  padding: 5px;
+}
+
+.password_change_validbtn_UP {
+  font-family: var(--font-03);
+  font-size: large;
+  border: solid 1px black;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.password_change_validbtn_UP:hover {
+  background: var(--color-02);
+}
+
+.monkeyNoWork_Position {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.monkey_no_work_UPH {
+  width: 60%;
+}
+/* CSS DESKTOP */
+@media (min-width: 1440px) {
+  .UP_Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0;
+  }
+
+  .UP_Content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 45%;
+  }
+
+  .UP_Part1_Flex {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 80%;
+    gap: 1.5rem;
+  }
+
+  .UP_Title_PseudoName {
+    color: var(--color-03);
+    text-align: center;
+    font-family: var(--font-06);
+    font-size: 90px;
+  }
+
+  .UP_Level_Score {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    width: 100%;
+  }
+
+  .UP_Title_Level {
+    border: 1px solid #000;
+    background: #fff;
+    width: 70%;
+    color: var(--color-01);
+    font-family: var(--font-07);
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem;
+  }
+
+  .UP_Title_Score {
+    border: 1px solid #000;
+    background: #fff;
+    width: 30%;
+    color: var(--color-01);
+    font-family: var(--font-07);
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .UP_Email_Password {
+    border: 1px solid #000;
+    background: #fff;
+    width: 100%;
+    color: var(--color-01);
+    font-family: var(--font-07);
+    font-size: 20px;
+    line-height: normal;
+    display: flex;
+    align-content: space-between;
+    flex-direction: row;
+  }
+
+  .Block_Email_Password {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 70%;
+    padding: 1rem;
+  }
+
+  .UP_Change_Password {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    cursor: pointer;
+  }
+
+  .UP_Change_Password_Inside {
+    color: var(--color-01);
+    font-family: var(--font-07);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid #000;
+  }
+
+  .UP_Register_Since {
+    color: var(--color-01);
+    background-color: var(--color-00);
+    font-family: var(--font-07);
+    font-size: 20px;
+    width: 100%;
+    padding: 1rem 0 1rem 0;
+  }
+
+  .UP_Image_Monkey_Center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .UP_Image_Monkey {
+    display: block;
+    width: 60%;
+  }
+
+  .UP_Part2_Flex {
+    width: 80%;
+  }
+
+  .UP_Title_Historical_container {
+    width: 50%;
+  }
+
+  .UP_Historical_Classement {
+    background-color: var(--color-00);
+  }
+
+  .UP_Title_Historical {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-07);
+    font-size: 1.563rem;
+    width: 100%;
+    padding: 1rem;
+    cursor: pointer;
+  }
+
+  .UP_Title_Historical.active {
+    color: var(--color-04);
+  }
+
+  .UP_Title_Classement {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-07);
+    font-size: 1.563rem;
+    width: 100%;
+    padding: 1rem;
+    cursor: pointer;
+  }
+
+  .UP_Title_Classement.active {
+    color: var(--color-04);
+  }
+
+  .UP_Title_Classement_container {
+    width: 50%;
+  }
+
+  .UPC_Work_Submited_Classement {
+    border-radius: 0px 0px 10px 10px;
+    border: 1px solid #000;
+    padding: 1.5rem 0;
+    height: 33.125rem;
+  }
+
+  .searchBar_UPC_container {
+    width: 80%;
+    padding: 1rem;
+    display: flex;
+  }
+
+  .searchBar_ULAF {
+    font-size: 1rem;
+  }
+
+  .UPC_Users_List_Td_container {
+    border: solid 1px black;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .UPC_Users_List_Table_container {
+    width: 90%;
+  }
+
+  .UPC_Users_List_Table {
+    width: 100%;
+    border: solid 1px black;
+  }
+
+  .UPH_Work_Submited {
+    gap: 1rem;
+    padding: 1.5rem 0;
+    height: 33.125rem;
+  }
+
+  .UPH_Works_Count {
+    width: 90%;
+    text-align: center;
+    border: 1px solid #000;
+    background-color: var(--color-00);
+    color: var(--color-01);
+    font-family: var(--font-07);
+    font-size: 1.25rem;
+    padding: 5px 0;
+  }
+
+  .UPH_Workcard_Container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+    gap: 2rem;
+  }
+
+  .UPC_Users_List_Td {
+    border: solid 1px black;
+    padding: 10px 0;
+    text-align: center;
+    font-family: var(--font-00);
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  .monkey_no_work_UPH {
+    width: 60%;
+  }
+}
